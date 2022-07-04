@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="asset/icon/favicon-32x32.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Sección de introducción con navegación desplegable</title>
+</head>
+
+<body class="transparencia ">
+
+  <header class="encabezado">
+    <a href="index.html" class="encabezado__logo">
+      <img src="asset/images/logo.svg" alt="Logotipo de la pagina" />
+    </a>
+    <nav class="navegacion">
+      <ul class="lista">
+        <li class=elemento-primario">
+          <a href="#" class="enlace-primario enlace-flecha">Características
+          </a>
+          <ul class="lista-secundario">
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">
+                <img src="asset/icon/icon-todo.svg" alt="Icono de lista" class="enlace-icono">
+                Lista de Tareas
+              </a>
+            </li>
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">
+                <img src="asset/icon/icon-calendar.svg" alt="Icono de calendario" class="enlace-icono">
+                Calendario
+              </a>
+            </li>
+            <li class="elemento-secundario" >
+              <a href="#" class="enlace-secundario">
+                <img src="asset/icon/icon-reminders.svg" alt="Icono de recordatorios" class="enlace-icono">
+                recordatorios
+              </a>
+            </li>
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">
+                <img src="asset/icon/icon-planning.svg" alt="Icono de planificación" class="enlace-icono">
+                planificación
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class=elemento-primario">
+          <a href="#" class="enlace-primario enlace-flecha">Compañía
+          </a>
+          <ul class="lista-secundario">
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">Historia</a>
+            </li>
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">Nuestro Equipo</a>
+            </li>
+            <li class="elemento-secundario">
+              <a href="#" class="enlace-secundario">Blog</a>
+            </li>
+          </ul>
+        </li>
+        <li class="elemento-primario">
+          <a href="#" class="enlace-primario">Carreras</a>
+        </li>
+        <li class="elemento-primario">
+          <a href="#" class="enlace-primario">Nosotros</a>
+        </li>
+      </ul>
+      <ul class="lista">
+        <li class="elemento-primario">
+          <a href="#" class="enlace-primario">Iniciar Sesión</a>
+        </li>
+        <li class="elemento-primario">
+          <a href="#" class="enlace-primario">Registrarse</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="menu">
+    </div>
+  </header>
+  <main class="contenido">
+    <div class="contenedor">
+      <h1 class="titulo">Hacer trabajo remoto</h1>
+      <p class="descripcion">Sincronice a su equipo, sin importar su ubicación. Optimice los procesos, cree rituales de
+        equipo y observe cómo se dispara la productividad.</p>
+      <a href="#" class="enlace">Leer más</a>
+      <aside class="marcas">
+        <ul class="marcas__lista">
+          <li class="marcas__marca">
+            <img src="asset/images/client-databiz.svg" alt="Logo databiz">
+          </li>
+          <li class="marcas__marca">
+            <img src="asset/images/client-audiophile.svg" alt="Logo audiophile">
+          </li>
+          <li class="marcas__marca">
+            <img src="asset/images/client-meet.svg" alt="Logo meet">
+          </li>
+          <li class="marcas__marca">
+            <img src="asset/images/client-maker.svg" alt="Logo maker">
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <picture class="imagen">
+      <source media="(min-width: 1041px)" srcset="asset/images/desktop/image-hero-desktop.png">
+      <img src="asset/images/mobile/image-hero-mobile.png" alt="imagen principal">
+    </picture>
+  </main>
+  <script src="js/toggle.js"></script>
+</body>
+
+</html>
